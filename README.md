@@ -6,7 +6,7 @@ This is the authoritative version of the project. It implements a **Server-Side 
 
 ### 1. The "Strict Judge" (Server Validation)
 The server now calculates the distance between the player's current location and the is greater than 25 units in a single frame, the request is flagged as a cheat and ignored.
-YOU CAN OBVISOULY CHANGE IT/ENCHANCE IT MORE 
+YOU CAN OBVISOULY CHANGE IT/ENHANCE IT MORE 
 
 ![Server Validation Logic](https://github.com/user-attachments/assets/d3f20082-bae3-4bc6-a1de-b232fd5bbb7a)
 *Logic: A Branch node blocks the execution path to SetActorLocation if validation fails.*
