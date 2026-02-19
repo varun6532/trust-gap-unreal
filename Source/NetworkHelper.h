@@ -5,7 +5,7 @@
 #include "NetworkHelper.generated.h"
 
 UCLASS()
-class TESTING_MULTIPLAYER_API UNetworkHelper : public UBlueprintFunctionLibrary
+class VULNERABLE_GAME_API UNetworkHelper : public UBlueprintFunctionLibrary
 {
     GENERATED_BODY()
 

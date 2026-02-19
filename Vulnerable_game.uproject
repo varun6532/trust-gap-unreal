@@ -5,7 +5,7 @@
 	"Description": "",
 	"Modules": [
 		{
-			"Name": "Testing_Multiplayer",
+			"Name": "Vulnerable_game",
 			"Type": "Runtime",
 			"LoadingPhase": "Default"
 		}

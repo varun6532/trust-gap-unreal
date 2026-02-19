@@ -1,15 +1,14 @@
-// Fill out your copyright notice in the Description page of Project Settings.
+// Copyright Epic Games, Inc. All Rights Reserved.
 
 using UnrealBuildTool;
 
-public class Testing_Multiplayer : ModuleRules
+public class Vulnerable_game : ModuleRules
 {
-	public Testing_Multiplayer(ReadOnlyTargetRules Target) : base(Target)
+	public Vulnerable_game(ReadOnlyTargetRules Target) : base(Target)
 	{
 		PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
-
-		PublicDependencyModuleNames.AddRange(new string[]
-{
+	
+		PublicDependencyModuleNames.AddRange(new string[] {
 	"Core",
 	"CoreUObject",
 	"Engine",
@@ -18,11 +17,11 @@ public class Testing_Multiplayer : ModuleRules
 	"Networking"
 });
 
-		PrivateDependencyModuleNames.AddRange(new string[] { });
+		PrivateDependencyModuleNames.AddRange(new string[] {  });
 
 		// Uncomment if you are using Slate UI
 		// PrivateDependencyModuleNames.AddRange(new string[] { "Slate", "SlateCore" });
-
+		
 		// Uncomment if you are using online features
 		// PrivateDependencyModuleNames.Add("OnlineSubsystem");
 
